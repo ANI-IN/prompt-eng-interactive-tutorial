@@ -1,0 +1,14 @@
+# Secrets — never commit (matches .env in any folder, e.g. notebooks/.env)
+.env
+
+# OS / editor / tooling
+.DS_Store
+.vscode/
+.claude/
+node_modules/
+
+# Local-only: dev scripts, tests, and the markdown answer key.
+# Kept on your machine but excluded from the published tutorial.
+scripts/
+solutions/
+*.test.js
